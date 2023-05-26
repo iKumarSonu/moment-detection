@@ -2,7 +2,7 @@ import cv2
 import time
 import imutils
 
-cam = cv2.VideoCapture(2) #initialize camera
+cam = cv2.VideoCapture(2) #initialize camera // if it did not initialize your camera, change the number between 0 to 10
 time.sleep(1) #1 second delay
 
 firstFrame=None #initializig there are no object
